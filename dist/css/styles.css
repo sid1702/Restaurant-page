@@ -1,0 +1,77 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    background-color: rgb(31, 25, 25);
+    color:white;
+}
+
+#header{
+    padding:0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(39, 54, 54);
+}
+
+#navBar{
+    width:100%;
+    background-color: rgb(27, 71, 71);
+}
+
+#navBarUl{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    
+}
+
+.navLink{
+    text-decoration: none;
+    padding: 40px;
+}
+
+.navLink:hover{
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+#content{
+    display: flex;
+    justify-content: center;
+    margin:50px;
+    
+}
+
+#about{
+    padding:40px;
+    text-align: center;
+}
+
+#text2{
+    margin:20px;
+}
+
+#drinksDiv{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#drinks-cards{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    margin: 50px;
+}
+
+#contactDiv{
+    margin:50px;
+}
+
+
+
+
